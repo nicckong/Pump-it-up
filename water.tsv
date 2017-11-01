@@ -1,0 +1,93 @@
+Status	Water Quality	Quantity	Value
+functional	coloured	enough	107
+functional	coloured	insufficient	91
+functional	coloured	seasonal	47
+functional	coloured	unknown	1
+functional	fluoride	enough	66
+functional	fluoride	insufficient	85
+functional	fluoride abandoned	enough	5
+functional	fluoride abandoned	insufficient	1
+functional	milky	enough	246
+functional	milky	insufficient	118
+functional	milky	seasonal	73
+functional	milky	unknown	1
+functional	salty	dry	11
+functional	salty	enough	1373
+functional	salty	insufficient	751
+functional	salty	seasonal	80
+functional	salty	unknown	5
+functional	salty abandoned	dry	1
+functional	salty abandoned	enough	150
+functional	salty abandoned	insufficient	20
+functional	salty abandoned	seasonal	2
+functional	salty abandoned	unknown	1
+functional	soft	dry	136
+functional	soft	enough	19640
+functional	soft	insufficient	6813
+functional	soft	seasonal	2112
+functional	soft	unknown	59
+functional	unknown	dry	9
+functional	unknown	enough	61
+functional	unknown	insufficient	37
+functional	unknown	seasonal	11
+functional	unknown	unknown	146
+functional needs repair	coloured	dry	1
+functional needs repair	coloured	enough	11
+functional needs repair	coloured	insufficient	13
+functional needs repair	coloured	seasonal	29
+functional needs repair	fluoride	enough	9
+functional needs repair	fluoride	insufficient	4
+functional needs repair	milky	enough	9
+functional needs repair	milky	insufficient	4
+functional needs repair	milky	seasonal	1
+functional needs repair	salty	dry	1
+functional needs repair	salty	enough	89
+functional needs repair	salty	insufficient	123
+functional needs repair	salty	seasonal	11
+functional needs repair	salty	unknown	1
+functional needs repair	salty abandoned	enough	50
+functional needs repair	salty abandoned	insufficient	22
+functional needs repair	soft	dry	19
+functional needs repair	soft	enough	2226
+functional needs repair	soft	insufficient	1281
+functional needs repair	soft	seasonal	374
+functional needs repair	soft	unknown	4
+functional needs repair	unknown	dry	16
+functional needs repair	unknown	enough	6
+functional needs repair	unknown	insufficient	3
+functional needs repair	unknown	seasonal	1
+functional needs repair	unknown	unknown	9
+non functional	coloured	dry	28
+non functional	coloured	enough	53
+non functional	coloured	insufficient	66
+non functional	coloured	seasonal	43
+non functional	fluoride	dry	2
+non functional	fluoride	enough	9
+non functional	fluoride	insufficient	25
+non functional	fluoride abandoned	dry	2
+non functional	fluoride abandoned	enough	6
+non functional	fluoride abandoned	insufficient	3
+non functional	milky	dry	119
+non functional	milky	enough	81
+non functional	milky	insufficient	91
+non functional	milky	seasonal	60
+non functional	milky	unknown	1
+non functional	salty	dry	638
+non functional	salty	enough	834
+non functional	salty	insufficient	801
+non functional	salty	seasonal	116
+non functional	salty	unknown	22
+non functional	salty abandoned	dry	12
+non functional	salty abandoned	enough	56
+non functional	salty abandoned	insufficient	19
+non functional	salty abandoned	seasonal	6
+non functional	soft	dry	4272
+non functional	soft	enough	8035
+non functional	soft	insufficient	4685
+non functional	soft	seasonal	1055
+non functional	soft	unknown	107
+non functional	unknown	dry	979
+non functional	unknown	enough	64
+non functional	unknown	insufficient	73
+non functional	unknown	seasonal	29
+non functional	unknown	unknown	432
