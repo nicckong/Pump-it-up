@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+
+  <style>
+
+    h1{
+      font-size: 30px;
+      font-family: Verdana; 
+      color: #00A2FF;},
+
+    .dimple-custom-axis-label{
+      font: 80px sans-serif !important;
+  }
+    }
+
+  </style>
+
+  <title>Water Quality</title>
+
+  <h1>Water Quality and Quantity</h1>
+
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
+
+  <div id="chartContainer">
+
+  <script type="text/javascript">
+
+    var svg = dimple.newSvg("#chartContainer", 900, 800);
+
+    d3.tsv("water.tsv", function (data) {
+      var myChart = new dimple.chart(svg, data);
+
+      myChart.setBounds(180, 40, 520, 480)
+      var myXAxis = myChart.addCategoryAxis("x", "Quantity");
+      var myYAxis = myChart.addCategoryAxis("y", "Water Quality");
+      myChart.addMeasureAxis("p", "Value");
+
+      var rings = myChart.addSeries("Status", dimple.plot.pie);
+      rings.innerRadius = 15;
+      rings.outerRadius = 28;
+
+      var myLegend = myChart.addLegend(180, 10, 500, 70, "right");
+
+      myXAxis.fontSize = "15px";
+      myYAxis.fontSize = "15px";
+      myLegend.fontSize = "13px";
+
+      myChart.draw();
+
+
+    });
+  </script>
+</div>
